@@ -17,7 +17,16 @@ public class PiedraPapelTijeras {
             throw new IllegalArgumentException("Movimiento invalido, la jugada debe ser 1,2 o 3");
         }
 
-        return "";
+       int movimientoPc = random.nextInt(3)+1;
+       String resultado =decidirGanador(movimientoJugador,movimientoPc);
+
+       return resultado ;
+    }
+
+    public String decidirGanador (int jugador, int pc){
+        if (jugador == pc){
+            return "empate";
+        }
     }
 
 }
