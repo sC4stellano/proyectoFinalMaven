@@ -27,6 +27,19 @@ public class PiedraPapelTijeras {
         if (jugador == pc){
             return "empate";
         }
+        if ((jugador == 1 && pc ==3) || (jugador == 2 && pc ==1) || (jugador == 3 && pc ==2)){
+            return "Ganador";
+        }
+        return "Perdedor";
     }
 
+    public int getVictoriasJugador(){
+        return victoriasJugador;
+    }
+    public int getVictoriasPc(){
+        return victoriasPc;
+    }
+
+
+    //🪨✂️📜
 }
