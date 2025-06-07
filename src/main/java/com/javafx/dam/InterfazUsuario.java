@@ -47,5 +47,17 @@ public class InterfazUsuario {  // Cambiado de "interface" a "class"
         scanner.close();
     }
 
-
+    private void mostrarResultado(String resultado) {
+        switch (resultado) {
+            case "Ganador":
+                System.out.println("¡Ganaste esta ronda! 🎉");
+                break;
+            case "Perdedor":
+                System.out.println("¡Perdiste esta ronda! 😢");
+                break;
+            case "empate":
+                System.out.println("¡Empate! 🤝");
+                break;
+        }
+    }
 }

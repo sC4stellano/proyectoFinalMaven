@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class PiedraPapelTijeras {
         /* TODO
-             COMENTAR EL CODIGO PARA LA ENTRAGA Y
+             COMENTAR EL CODIGO PARA LA ENTRAGA Y TERMINAR LOS TEST
             */
 
     private int victoriasJugador;
